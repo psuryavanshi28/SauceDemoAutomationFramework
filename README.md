@@ -14,7 +14,7 @@ This is a robust and scalable Selenium WebDriver automation framework built in *
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 SauceDemoAutomationFramework/
 ├── src/
@@ -32,7 +32,7 @@ SauceDemoAutomationFramework/
 ├── screenshots/ # Captured screenshots on test failure
 └── README.md # Project documentation
 
-## ✅ Features
+## Features
 
 - 🔹 Page Object Model (POM) Design Pattern
 - 🔹 Modular test structure with reusability
@@ -42,14 +42,14 @@ SauceDemoAutomationFramework/
 - 🔹 Wait handling using custom WaitHelper
 - 🔹 Easily pluggable into CI tools like Jenkins or GitHub Actions
 
-## 🚀 How to Run Tests
+##  How to Run Tests
 
-### ✅ Prerequisites:
+### Prerequisites:
 - Java 17+
 - Maven
 - Chrome browser
 
-### 🧪 Run All Tests:
+## Run All Tests:
 
 ```bash
 mvn clean test
