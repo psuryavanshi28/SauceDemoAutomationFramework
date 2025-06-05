@@ -53,3 +53,5 @@ SauceDemoAutomationFramework/
 
 ```bash
 mvn clean test
+
+Developed by Praveen Suryavanshi — for test automation lead interviews and real-world project experience.
