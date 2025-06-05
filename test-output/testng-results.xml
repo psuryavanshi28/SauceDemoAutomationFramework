@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="27" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-04T18:24:12 IST" name="Suite" finished-at="2025-06-04T18:27:06 IST" duration-ms="174451">
+    <groups>
+    </groups>
+    <test started-at="2025-06-04T18:24:12 IST" name="Test" finished-at="2025-06-04T18:27:06 IST" duration-ms="174451">
+      <class name="test.SortTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:29 IST" name="setUp" finished-at="2025-06-04T18:24:33 IST" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByNameAToZ()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:33 IST" name="sortByNameAToZ" finished-at="2025-06-04T18:24:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameAToZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:33 IST" name="tearDown" finished-at="2025-06-04T18:24:33 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:33 IST" name="setUp" finished-at="2025-06-04T18:24:37 IST" duration-ms="3560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByNameZToA()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:37 IST" name="sortByNameZToA" finished-at="2025-06-04T18:24:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByNameZToA -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:37 IST" name="tearDown" finished-at="2025-06-04T18:24:37 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:37 IST" name="setUp" finished-at="2025-06-04T18:24:40 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByPriceHighToLow()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:40 IST" name="sortByPriceHighToLow" finished-at="2025-06-04T18:24:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:40 IST" name="tearDown" finished-at="2025-06-04T18:24:40 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:40 IST" name="setUp" finished-at="2025-06-04T18:24:45 IST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:45 IST" name="sortByPriceLowToHigh" finished-at="2025-06-04T18:24:46 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SortTest@6ad82709]" started-at="2025-06-04T18:24:46 IST" name="tearDown" finished-at="2025-06-04T18:24:46 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SortTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:24:46 IST" name="setUp" finished-at="2025-06-04T18:24:50 IST" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="glitchUserLogin()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:24:50 IST" name="glitchUserLogin" finished-at="2025-06-04T18:24:56 IST" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- glitchUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:24:56 IST" name="tearDown" finished-at="2025-06-04T18:24:56 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:24:56 IST" name="setUp" finished-at="2025-06-04T18:25:00 IST" duration-ms="3586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginBlankFields()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:00 IST" name="invalidLoginBlankFields" finished-at="2025-06-04T18:25:00 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:00 IST" name="tearDown" finished-at="2025-06-04T18:25:01 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:01 IST" name="setUp" finished-at="2025-06-04T18:25:05 IST" duration-ms="4101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginWrongPassword()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:05 IST" name="invalidLoginWrongPassword" finished-at="2025-06-04T18:25:06 IST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:06 IST" name="tearDown" finished-at="2025-06-04T18:25:06 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:06 IST" name="setUp" finished-at="2025-06-04T18:25:17 IST" duration-ms="11544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lockedOutUserLogin()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:17 IST" name="lockedOutUserLogin" finished-at="2025-06-04T18:25:18 IST" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:18 IST" name="tearDown" finished-at="2025-06-04T18:25:18 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:18 IST" name="setUp" finished-at="2025-06-04T18:25:27 IST" duration-ms="8526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="problemUserLogin()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:27 IST" name="problemUserLogin" finished-at="2025-06-04T18:25:28 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:28 IST" name="tearDown" finished-at="2025-06-04T18:25:28 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:28 IST" name="setUp" finished-at="2025-06-04T18:25:32 IST" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginStandardUser()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:32 IST" name="validLoginStandardUser" finished-at="2025-06-04T18:25:32 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginStandardUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@510f3d34]" started-at="2025-06-04T18:25:32 IST" name="tearDown" finished-at="2025-06-04T18:25:33 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.AddToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:33 IST" name="setUp" finished-at="2025-06-04T18:25:36 IST" duration-ms="3355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleItemsToCart()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:36 IST" name="addMultipleItemsToCart" finished-at="2025-06-04T18:25:38 IST" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleItemsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:38 IST" name="tearDown" finished-at="2025-06-04T18:25:38 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:38 IST" name="setUp" finished-at="2025-06-04T18:25:41 IST" duration-ms="3613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addSingleItemToCart()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:41 IST" name="addSingleItemToCart" finished-at="2025-06-04T18:25:43 IST" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:43 IST" name="tearDown" finished-at="2025-06-04T18:25:43 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:43 IST" name="setUp" finished-at="2025-06-04T18:25:47 IST" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartIconShouldShowItemCount()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:47 IST" name="cartIconShouldShowItemCount" finished-at="2025-06-04T18:25:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartIconShouldShowItemCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:47 IST" name="tearDown" finished-at="2025-06-04T18:25:47 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:47 IST" name="setUp" finished-at="2025-06-04T18:25:52 IST" duration-ms="4579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateBackToInventoryFromCart()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:52 IST" name="navigateBackToInventoryFromCart" finished-at="2025-06-04T18:25:53 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateBackToInventoryFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:53 IST" name="tearDown" finished-at="2025-06-04T18:25:53 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:53 IST" name="setUp" finished-at="2025-06-04T18:25:57 IST" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeItemFromCart()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:25:57 IST" name="removeItemFromCart" finished-at="2025-06-04T18:26:09 IST" duration-ms="11489" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: shopping_cart_badge' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: shopping_cart_badge' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.InventoryPage.addItemToCartByIndex(InventoryPage.java:47)
+at test.AddToCartTest.removeItemFromCart(AddToCartTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: chrome=136.0.7103.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3711d588cfe11133e49f8622e157fe34, findElement {using=class name, value=shopping_cart_badge}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.116, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PSURYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52850}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52850/devtoo..., se:cdpVersion: 136.0.7103.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3711d588cfe11133e49f8622e157fe34
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AddToCartTest@7817fd62]" started-at="2025-06-04T18:26:09 IST" name="tearDown" finished-at="2025-06-04T18:26:09 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.AddToCartTest -->
+      <class name="test.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:12 IST" name="setUp" finished-at="2025-06-04T18:24:16 IST" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="backButtonFromCart()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:16 IST" name="backButtonFromCart" finished-at="2025-06-04T18:24:16 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backButtonFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:16 IST" name="tearDown" finished-at="2025-06-04T18:24:16 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:16 IST" name="setUp" finished-at="2025-06-04T18:24:21 IST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cartQuantityUpdateTest()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:21 IST" name="cartQuantityUpdateTest" finished-at="2025-06-04T18:24:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartQuantityUpdateTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:21 IST" name="tearDown" finished-at="2025-06-04T18:24:21 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:21 IST" name="setUp" finished-at="2025-06-04T18:24:29 IST" duration-ms="8426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateItemNamesInCart()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:29 IST" name="validateItemNamesInCart" finished-at="2025-06-04T18:24:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateItemNamesInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CartTest@61322f9d]" started-at="2025-06-04T18:24:29 IST" name="tearDown" finished-at="2025-06-04T18:24:29 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CartTest -->
+      <class name="test.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:09 IST" name="setUp" finished-at="2025-06-04T18:26:13 IST" duration-ms="4124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="backToCartFromCheckoutStepOne()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:13 IST" name="backToCartFromCheckoutStepOne" finished-at="2025-06-04T18:26:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToCartFromCheckoutStepOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:13 IST" name="tearDown" finished-at="2025-06-04T18:26:14 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:14 IST" name="setUp" finished-at="2025-06-04T18:26:17 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelCheckoutOnOverviewPage()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:17 IST" name="cancelCheckoutOnOverviewPage" finished-at="2025-06-04T18:26:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckoutOnOverviewPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:17 IST" name="tearDown" finished-at="2025-06-04T18:26:17 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:17 IST" name="setUp" finished-at="2025-06-04T18:26:21 IST" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cancelCheckoutOnStep1()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:21 IST" name="cancelCheckoutOnStep1" finished-at="2025-06-04T18:26:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelCheckoutOnStep1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:21 IST" name="tearDown" finished-at="2025-06-04T18:26:22 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:22 IST" name="setUp" finished-at="2025-06-04T18:26:30 IST" duration-ms="8680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingFirstName()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:30 IST" name="checkoutMissingFirstName" finished-at="2025-06-04T18:26:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingFirstName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:30 IST" name="tearDown" finished-at="2025-06-04T18:26:31 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:31 IST" name="setUp" finished-at="2025-06-04T18:26:35 IST" duration-ms="4354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingLastName()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:35 IST" name="checkoutMissingLastName" finished-at="2025-06-04T18:26:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingLastName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:35 IST" name="tearDown" finished-at="2025-06-04T18:26:35 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:35 IST" name="setUp" finished-at="2025-06-04T18:26:39 IST" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutMissingPostalCode()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:39 IST" name="checkoutMissingPostalCode" finished-at="2025-06-04T18:26:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutMissingPostalCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:39 IST" name="tearDown" finished-at="2025-06-04T18:26:40 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:40 IST" name="setUp" finished-at="2025-06-04T18:26:43 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeCheckoutSuccessfully()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:43 IST" name="completeCheckoutSuccessfully" finished-at="2025-06-04T18:26:44 IST" duration-ms="913" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=136.0.7103.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35502e88d58484e7307a0ebda41e070f, findElement {using=id, value=checkout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.116, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PSURYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53042}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53042/devtoo..., se:cdpVersion: 136.0.7103.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35502e88d58484e7307a0ebda41e070f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
+  (Session info: chrome=136.0.7103.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [35502e88d58484e7307a0ebda41e070f, findElement {using=id, value=checkout}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.116, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PSURYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53042}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53042/devtoo..., se:cdpVersion: 136.0.7103.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35502e88d58484e7307a0ebda41e070f
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.CartPage.clickCheckout(CartPage.java:26)
+at test.CheckoutTest.completeCheckoutSuccessfully(CheckoutTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeCheckoutSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:44 IST" name="tearDown" finished-at="2025-06-04T18:26:45 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:45 IST" name="setUp" finished-at="2025-06-04T18:26:48 IST" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPostalCodeFormat()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:48 IST" name="invalidPostalCodeFormat" finished-at="2025-06-04T18:26:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPostalCodeFormat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:48 IST" name="tearDown" finished-at="2025-06-04T18:26:48 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:48 IST" name="setUp" finished-at="2025-06-04T18:26:53 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTaxCalculation()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:53 IST" name="verifyTaxCalculation" finished-at="2025-06-04T18:26:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaxCalculation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@8297b3a]" started-at="2025-06-04T18:26:53 IST" name="tearDown" finished-at="2025-06-04T18:26:53 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.CheckoutTest -->
+      <class name="test.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:26:53 IST" name="setUp" finished-at="2025-06-04T18:26:57 IST" duration-ms="4178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="accessProtectedPageAfterLogout()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:26:57 IST" name="accessProtectedPageAfterLogout" finished-at="2025-06-04T18:26:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessProtectedPageAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:26:57 IST" name="tearDown" finished-at="2025-06-04T18:26:57 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:26:57 IST" name="setUp" finished-at="2025-06-04T18:27:01 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAfterLogout()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:27:01 IST" name="loginAfterLogout" finished-at="2025-06-04T18:27:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:27:01 IST" name="tearDown" finished-at="2025-06-04T18:27:01 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:27:01 IST" name="setUp" finished-at="2025-06-04T18:27:05 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutFromInventoryPage()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:27:05 IST" name="logoutFromInventoryPage" finished-at="2025-06-04T18:27:06 IST" duration-ms="990" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=136.0.7103.116)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1ee5e1a7863185d0d2ff3669083b7b8, clickElement {id=f.5352612E83CBAB3A886D1EF7010A1AB3.d.CFDD4C3C2A6C7F0FF43AF2DCFDBA97B0.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.116, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PSURYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53173/devtoo..., se:cdpVersion: 136.0.7103.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a1ee5e1a7863185d0d2ff3669083b7b8)] -> id: logout_sidebar_link]
+Session ID: a1ee5e1a7863185d0d2ff3669083b7b8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=136.0.7103.116)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1ee5e1a7863185d0d2ff3669083b7b8, clickElement {id=f.5352612E83CBAB3A886D1EF7010A1AB3.d.CFDD4C3C2A6C7F0FF43AF2DCFDBA97B0.e.28}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.116, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\PSURYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53173/devtoo..., se:cdpVersion: 136.0.7103.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a1ee5e1a7863185d0d2ff3669083b7b8)] -> id: logout_sidebar_link]
+Session ID: a1ee5e1a7863185d0d2ff3669083b7b8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at pages.HeaderPage.logout(HeaderPage.java:24)
+at test.LogoutTest.logoutFromInventoryPage(LogoutTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromInventoryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LogoutTest@2362f559]" started-at="2025-06-04T18:27:06 IST" name="tearDown" finished-at="2025-06-04T18:27:06 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
