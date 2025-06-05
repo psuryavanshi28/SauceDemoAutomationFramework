@@ -1,6 +1,6 @@
 ## Saucedemo Automation Framework
 
-This is a robust and scalable Selenium WebDriver automation framework built in **Java + TestNG**, using the [SauceDemo](https://www.saucedemo.com/) website. It includes **30+ real-world test cases**, screenshots on failure, and Extent Reports for rich HTML reporting.
+This is a robust and scalable Selenium WebDriver automation framework built in **Java + TestNG**, using the [SauceDemo](https://www.saucedemo.com/) website. It includes **30+ real-world test cases**, screenshots on failure.
 
 ## Tech Stack
 
