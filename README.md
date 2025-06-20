@@ -16,10 +16,10 @@ It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates fram
 
 
 ---
-<pre><code>## 📁 Project Structure ```
+## 📁 Project Structure ```
 
 SauceDemoAutomationFramework/ ├── src/ │ ├── main/ │ │ └── java/ │ │ ├── base/ # BaseTest, BasePage, DriverFactory │ │ ├── pages/ # LoginPage, InventoryPage, etc. │ │ ├── utils/ # ScreenshotUtil, ConfigReader, WaitHelper │ │ └── listeners/ # TestListener for ExtentReports & Screenshots │ └── test/ │ └── java/ │ └── tests/ # LoginTest, CartTest, CheckoutTest, etc. ├── testng.xml # TestNG suite file ├── pom.xml # Maven configuration ├── screenshots/ # Captured screenshots on test failure └── README.md # Project documentation
-  ``` </code></pre>
+
 
 
 ## Features
