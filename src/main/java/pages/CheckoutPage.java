@@ -1,8 +1,12 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CheckoutPage extends BasePage {
 
@@ -26,10 +30,12 @@ public class CheckoutPage extends BasePage {
     }
 
     public void fillCustomerInfo(String firstName, String lastName, String postalCode) {
-        firstNameField.sendKeys(firstName);
-        lastNameField.sendKeys(lastName);
-        postalCodeField.sendKeys(postalCode);
-        continueButton.click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+        wait.until(ExpectedConditions.elementToBeClickable(firstNameField)).sendKeys(firstName);
+        wait.until(ExpectedConditions.elementToBeClickable(lastNameField)).sendKeys(lastName);
+        wait.until(ExpectedConditions.elementToBeClickable(postalCodeField)).sendKeys(postalCode);
+        wait.until(ExpectedConditions.elementToBeClickable(continueButton)).click();
     }
 
     public String getErrorMessage() {

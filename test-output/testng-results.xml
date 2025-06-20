@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="9" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-20T16:21:41 IST" name="Default suite" finished-at="2025-06-20T16:21:47 IST" duration-ms="5940">
+  <suite started-at="2025-06-20T16:45:01 IST" name="Default suite" finished-at="2025-06-20T16:45:08 IST" duration-ms="6494">
     <groups>
     </groups>
-    <test started-at="2025-06-20T16:21:41 IST" name="Default test" finished-at="2025-06-20T16:21:47 IST" duration-ms="5940">
-      <class name="test.LogoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LogoutTest@22555ebf]" started-at="2025-06-20T16:21:41 IST" name="setUp" finished-at="2025-06-20T16:21:45 IST" duration-ms="3365" status="PASS">
+    <test started-at="2025-06-20T16:45:01 IST" name="Default test" finished-at="2025-06-20T16:45:08 IST" duration-ms="6494">
+      <class name="test.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CheckoutTest@38425407]" started-at="2025-06-20T16:45:01 IST" name="setUp" finished-at="2025-06-20T16:45:05 IST" duration-ms="3536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutFromInventoryPage()[pri:0, instance:test.LogoutTest@22555ebf]" started-at="2025-06-20T16:21:45 IST" name="logoutFromInventoryPage" finished-at="2025-06-20T16:21:47 IST" duration-ms="2124" status="PASS">
+        <test-method signature="completeCheckoutSuccessfully()[pri:0, instance:test.CheckoutTest@38425407]" started-at="2025-06-20T16:45:05 IST" name="completeCheckoutSuccessfully" finished-at="2025-06-20T16:45:08 IST" duration-ms="2631" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutFromInventoryPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LogoutTest@22555ebf]" started-at="2025-06-20T16:21:47 IST" name="tearDown" finished-at="2025-06-20T16:21:47 IST" duration-ms="381" status="PASS">
+        </test-method> <!-- completeCheckoutSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CheckoutTest@38425407]" started-at="2025-06-20T16:45:08 IST" name="tearDown" finished-at="2025-06-20T16:45:08 IST" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.LogoutTest -->
+      </class> <!-- test.CheckoutTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
