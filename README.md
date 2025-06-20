@@ -1,16 +1,19 @@
 ## Saucedemo Automation Framework
 
-This is a robust and scalable Selenium WebDriver automation framework built in **Java + TestNG**, using the [SauceDemo](https://www.saucedemo.com/) website. It includes **30+ real-world test cases**, screenshots on failure.
+This is a real-world automation testing framework developed using **Selenium WebDriver**, **Java**, **TestNG**, and **Maven**, built on the **Page Object Model (POM)** design pattern.  
+It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates framework design, execution flow, reporting, and CI/CD integration.
 
 ## Tech Stack
 
-- **Java 17+**
-- **Selenium WebDriver 4+**
-- **TestNG**
-- **Extent Reports**
-- **Maven** (Build + Dependency Management)
-- **Page Object Model (POM)**
-- **Screenshot on failure (TestNG Listener)**
+- **Programming Language**: Java  
+- **Automation Tool**: Selenium WebDriver  
+- **Test Framework**: TestNG  
+- **Build Tool**: Maven  
+- **Design Pattern**: Page Object Model (POM)  
+- **Reporting**: ExtentReports  
+- **CI/CD Integration**: Jenkins  
+- **Version Control**: Git & GitHub  
+
 
 ---
 
@@ -34,14 +37,15 @@ SauceDemoAutomationFramework/
 
 ## Features
 
-- 🔹 Page Object Model (POM) Design Pattern
-- 🔹 Modular test structure with reusability
-- 🔹 30+ real-world functional test cases
-- 🔹 Extent HTML Reporting with screenshots on failure
-- 🔹 Configurable browser setup
-- 🔹 Wait handling using custom WaitHelper
-- 🔹 Easily pluggable into CI tools like Jenkins or GitHub Actions
+- 🚀 30+ real-world automated test cases  
+- 🔄 Modular Page Object Model (POM) structure  
+- 📸 Screenshots on failure using TestNG listeners  
+- 📊 ExtentReports for rich HTML reporting  
+- ⚙️ Wait handling and reusable utility methods  
+- 🧪 TestNG suite for execution control  
+- 🔁 Ready for integration with Jenkins or GitHub Actions
 
+  
 ##  How to Run Tests
 
 ### Prerequisites:
