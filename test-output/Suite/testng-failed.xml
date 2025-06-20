@@ -13,20 +13,6 @@
           <include name="logoutFromInventoryPage"/>
         </methods>
       </class> <!-- test.LogoutTest -->
-      <class name="test.AddToCartTest">
-        <methods>
-          <include name="removeItemFromCart"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.AddToCartTest -->
-      <class name="test.CheckoutTest">
-        <methods>
-          <include name="completeCheckoutSuccessfully"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- test.CheckoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
