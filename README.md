@@ -21,22 +21,20 @@ It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates fram
 
 SauceDemoAutomationFramework/
 ├── src/
-│ ├── main/
-│ │ └── java/
+│ ├── main/java/
 │ │ ├── base/ # BaseTest, BasePage, DriverFactory
 │ │ ├── pages/ # Page classes: LoginPage, InventoryPage, etc.
 │ │ ├── utils/ # ScreenshotUtil, ConfigReader, WaitHelper
 │ │ └── listeners/ # TestListener for ExtentReports & Screenshots
-│ └── test/
-│ └── java/
-│ └── test/ # Test classes: LoginTest, CartTest, CheckoutTest, etc.
+│ └── test/java/
+│ └── tests/ # Test classes: LoginTest, CartTest, CheckoutTest, etc.
 ├── testng.xml # TestNG suite file
-├── pom.xml # Maven project configuration
+├── pom.xml # Maven configuration
 ├── screenshots/ # Captured screenshots on test failure
 └── README.md # Project documentation
 
-## Features
 
+## Features
 - 🚀 30+ real-world automated test cases  
 - 🔄 Modular Page Object Model (POM) structure  
 - 📸 Screenshots on failure using TestNG listeners  
