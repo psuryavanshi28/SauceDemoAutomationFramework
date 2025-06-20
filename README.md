@@ -1,7 +1,9 @@
-## Saucedemo Automation Framework
+# SauceDemo Automation Framework
 
 This is a real-world automation testing framework developed using **Selenium WebDriver**, **Java**, **TestNG**, and **Maven**, built on the **Page Object Model (POM)** design pattern.  
 It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates framework design, execution flow, reporting, and CI/CD integration.
+
+---
 
 ## Tech Stack
 
@@ -14,48 +16,88 @@ It covers 30+ test cases for the SauceDemo e-commerce site and demonstrates fram
 - **CI/CD Integration**: Jenkins  
 - **Version Control**: Git & GitHub  
 
-
 ---
-## 📁 Project Structure
 
+## Project Structure
+
+```
 SauceDemoAutomationFramework/
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ ├── base/ # BaseTest, BasePage, DriverFactory
-│ │ ├── pages/ # LoginPage, InventoryPage, etc.
-│ │ ├── utils/ # ScreenshotUtil, ConfigReader, WaitHelper
-│ │ └── listeners/ # TestListener for ExtentReports & Screenshots
-│ └── test/
-│ └── java/
-│ └── tests/ # LoginTest, CartTest, CheckoutTest, etc.
-├── testng.xml # TestNG suite file
-├── pom.xml # Maven configuration
-├── screenshots/ # Captured screenshots on test failure
-└── README.md # Project documentation
+│   ├── main/
+│   │   └── java/
+│   │       ├── base/         # BaseTest, BasePage, DriverFactory
+│   │       ├── pages/        # LoginPage, InventoryPage, etc.
+│   │       ├── utils/        # ScreenshotUtil, ConfigReader, WaitHelper
+│   │       └── listeners/    # TestListener for ExtentReports & Screenshots
+│   └── test/
+│       └── java/
+│           └── tests/        # LoginTest, CartTest, CheckoutTest, etc.
+├── testng.xml                # TestNG suite file
+├── pom.xml                   # Maven configuration
+├── screenshots/              # Captured screenshots on test failure
+└── README.md                 # Project documentation
+```
 
+---
 
+## ✅ Features
 
-## Features
 - 🚀 30+ real-world automated test cases  
 - 🔄 Modular Page Object Model (POM) structure  
 - 📸 Screenshots on failure using TestNG listeners  
 - 📊 ExtentReports for rich HTML reporting  
 - ⚙️ Wait handling and reusable utility methods  
 - 🧪 TestNG suite for execution control  
-- 🔁 Ready for integration with Jenkins or GitHub Actions
+- 🔁 Ready for integration with Jenkins or GitHub Actions  
 
-  
-##  How to Run Tests
+---
 
-### Prerequisites:
+## ▶️ How to Run Locally
+
+### Prerequisites
+
 - Java 17+
 - Maven
 - Chrome browser
 
-## Run All Tests:
+### Run All Tests
 
 ```bash
 mvn clean test
+```
 
-Developed by Praveen Suryavanshi — for test automation lead interviews and real-world project experience.
+---
+
+## 🔄 Jenkins CI/CD Integration
+
+This project supports Jenkins integration for continuous test execution.
+
+### Jenkins Job Setup
+
+1. Create a **Freestyle Project**
+2. Configure **Git** under Source Code Management:  
+   `https://github.com/psuryavanshi28/SauceDemoAutomationFramework.git`  
+3. In **Build > Execute shell**, use:
+
+```bash
+mvn clean test
+```
+
+4. Add post-build actions to archive:
+   - HTML reports from `test-output/ExtentReports/`
+   - Screenshots from `screenshots/` directory
+
+---
+
+## 📎 Repository
+
+🔗 [SauceDemoAutomationFramework on GitHub](https://github.com/psuryavanshi28/SauceDemoAutomationFramework)
+
+---
+
+## 👨‍💻 Author
+
+**Praveen Suryavanshi**  
+QA Test Lead | Manual + Automation | Selenium | TestNG | Jenkins | GitHub Framework Ready
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/praveeen-suryavanshi-b20300123/)
